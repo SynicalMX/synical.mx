@@ -10,10 +10,10 @@ title.style.top = '50%';
 title.style.left = left+'px';
 title.style.top = '-50px';
 
-title_text[0].style.left = 
+//title_text[0].style.left = 
 
 const proxy_btn = document.querySelector("#main > #buttonnest > #webproxy_btn");
 
 proxy_btn.onclick = function() {
-	window.location.href = "/webtools/webproxy/index.html";
+	window.location.href = "./webtools/webproxy/index.html";
 }

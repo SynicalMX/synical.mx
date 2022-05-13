@@ -15,5 +15,5 @@ const webtoolsbtn = document.querySelector("#buttonnest > #webtools");
 const buttonsnest = document.querySelector("#buttonnest");
 
 webtoolsbtn.onclick = function() {
-	window.location.href = "/webtools/index.html"
+	window.location.href = "./webtools/index.html"
 }
